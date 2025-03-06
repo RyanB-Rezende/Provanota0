@@ -51,6 +51,8 @@ REST_FRAMEWORK = {
     ],
 }
 
+MEDIA_URL = '/media/'   
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
